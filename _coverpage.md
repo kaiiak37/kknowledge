@@ -10,7 +10,7 @@
     <th class="home-page-col">
         <div class="home-page-cell">
             <img src="./_media/autocad.png" ></img>
-            <a href="#/autocad/readme.md">AutoCAD</a>
+            <a href="#/autocad/readme">AutoCAD</a>
         </div>
     </th>
     <td class="home-page-col">
