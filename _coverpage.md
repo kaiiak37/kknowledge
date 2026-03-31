@@ -13,12 +13,12 @@
             <a href="#/autocad/readme">AutoCAD</a>
         </div>
     </th>
-    <td class="home-page-col">
+    <!-- <td class="home-page-col">
         <div class="home-page-cell">
             <img src="./_media/lab.svg"></img>
             <a href="#/ylc/readme.md">xxx</a>
         </div>
-    </td>
+    </td> -->
   </tr>
 
   <!-- <tr class="home-page-row">

@@ -1,11 +1,11 @@
 <!-- _navbar.md -->
 
 * [AutoCAD](autocad/)
-* [YLC](ylc/readme.md)
+<!-- * [YLC](ylc/readme.md)
     * [Andon](ylc/andon/readme.md)
     * [SAP](ylc/sap/readme.md)
     * [BPM](ylc/bpm/readme.md)
-    * [ONAB](ylc/onab/readme.md)
+    * [ONAB](ylc/onab/readme.md) -->
 <!-- * [PTC](ptc/readme.md)
     * [Windchill](ptc/windchill/readme.md)
     * [Creo](ptc/creo/readme.md)
