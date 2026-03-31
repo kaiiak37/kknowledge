@@ -1,0 +1,98 @@
+.c-flow-container {
+    position: relative;
+    width: 500px;
+    height: 350px;
+    /* 增加高度以容纳标签 */
+    margin: 20px;
+}
+
+.c-flow-circle {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.c-flow-circle-a {
+    left: 50px;
+    background-color: rgba(52, 152, 219, 0.7);
+}
+
+.c-flow-circle-b {
+    right: 50px;
+    background-color: rgba(231, 76, 60, 0.7);
+}
+
+.c-flow-label {
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+}
+
+.c-flow-label-a {
+    left: 100px;
+    top: 135px;
+}
+
+.c-flow-label-b {
+    right: 100px;
+    top: 135px;
+}
+
+.c-flow-label-c {
+    left: 50%;
+    top: 135px;
+    transform: translateX(-50%);
+}
+
+.c-flow-circle-label {
+    position: absolute;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.c-flow-circle-label-a {
+    left: 125px;
+    top: 280px;
+}
+
+.c-flow-circle-label-b {
+    right: 125px;
+    top: 280px;
+}
+
+.c-flow-description {
+    margin-top: 20px;
+    text-align: center;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.c-flow-join-types {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.c-flow-join-type {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

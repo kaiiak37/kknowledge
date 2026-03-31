@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>K Knowledge</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="./_media/ICO.png" type="image/x-icon">
+  <!-- Docsify的css -->
+  <link rel="stylesheet" href="./_src/themes/vue.css">
+  <!-- 主页的css -->
+  <link rel="stylesheet" href="./_src/themes/home-page.css">
+  <!-- Excel的css -->
+  <link rel="stylesheet" href="excel.css">
+
+  <!-- time-updater.min.js的css -->
+  <link rel="stylesheet" href="./_src/themes/sidebar.min.css" />
+
+</head>
+
+<body>
+  <script>
+    window.$docsify = {
+      name: 'K Knowledge',
+      repo: '',
+
+      coverpage: true,  //开启渲染封面功能
+      onlyCover: true,
+      loadSidebar: true,
+      subMaxLevel: 2, //设置生成目录的最大层级
+      loadNavbar: true,  //默认加载的文件为 _navbar.md
+      maxLevel: 6, // 最大支持渲染的标题层级
+      auto2top: true, // 切换页面时自动跳转到页面顶端
+
+      //全局搜索的变量
+      search: {
+        maxAge: 6000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '找不到结果',
+      },
+
+      //time-updater的变量
+      timeUpdater: {
+        text: "<div align='right' width='200px' style='color:gray;font-size:16px;padding-top:50px;'>Posted @ {docsify-updated}</div>",
+        formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
+      },
+
+      //docsify-tabs的变量
+      tabs: {
+        persist: true,      // default
+        sync: true,      // default
+        theme: 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
+
+      requestHeaders: {
+        'cache-control': 'max-age=60',
+      },
+    }
+  </script>
+  <div id="app"></div>
+
+  <!-- Docsify v4 -->
+  <script src="./_src/docsify@4.js"></script>
+
+  <!-- Docsify 插件 -->
+  <!-- 全局搜索 -->
+  <script src="./_src/plugins/search.min.js"></script>
+  <!-- 图片点击放大 -->
+  <script src="./_src/plugins/zoom-image.min.js"></script>
+  <!-- markdown代码高亮 -->
+  <script src="./_src/plugins/prism-markdown.min.js"></script>
+  <!-- 可折叠的侧边栏 -->
+  <script src="./_src/plugins/docsify-sidebar-collapse.min.js"></script>
+  <!-- 页脚增加修改时间 -->
+  <script src="./_src/plugins/time-updater.min.js"></script>
+  <!-- 增加tab -->
+  <script src="./_src/plugins/docsify-tabs.min.js"></script>
+  <!-- 使用日志记录器 -->
+  <!-- 流程图 -->
+  <script src="./_src/plugins/mermaid.min.js"></script>
+  <script>
+
+    mermaid.initialize({
+      startOnLoad: true,
+      securityLevel: 'loose',
+      logLevel: 1,
+      init: { "flowchart": { "defaultRenderer": "elk" } }
+    });
+  </script>
+  <script src="./_src/plugins/docsify-mermaid.js"></script>
+  <script src="./_src/plugins/docsify-mermaid-zoom.js"></script>
+
+  <!-- emoji -->
+  <script src="./_src/plugins/emoji.min.js"></script>
+
+  <!-- 流程图 -->
+  <!-- <script src="//unpkg.com/websequencediagrams-docsify@2.0.1/dist/docsify-websequencediagrams.js"></script> -->
+
+  <!-- 饼图 -->
+  <!-- <script src="//unpkg.com/@markbattistella/docsify-charty@latest/dist/docsify-charty.min.js"></script> -->
+
+
+
+</body>
+
+</html>

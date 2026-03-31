@@ -1,0 +1,39 @@
+.home-page-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.75rem;
+    letter-spacing: .2rem;
+}
+
+.home-page-row{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.home-page-col{
+    display:flex;
+    flex-direction: row;
+    font-weight:450; 
+}
+
+.home-page-cell{
+    width: 250px;
+    border-bottom: 1px solid;
+    border-bottom-color: var(--theme-color,#42b983);
+    
+    margin: 0.5rem 1rem;
+    padding: 0.5em 1.5rem;
+    color: var(--theme-color,#42b983);
+    transition: all .15s ease;
+    display: flex;
+    align-items: center;
+   
+}
+
+.home-page-cell img{
+    margin-right: 0.8rem;
+    width:36px;    
+}
